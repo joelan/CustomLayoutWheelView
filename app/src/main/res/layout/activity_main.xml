@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <cn.crazyjoe.customlayoutwheelview.wheel.WheelView
+            android:id="@+id/wv2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            app:wheelGravity="right"
+            app:wheelItemCount="1"
+            android:layout_gravity="center"
+            app:dividerColor="#00000000"
+            app:wheelItemSize="60dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
